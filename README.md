@@ -121,7 +121,7 @@ DB H2database<br>
 				strPsychopass = "30";
 			}else {
 				strPsychopass = "0";
-		  }
+		}
 
 		int intPsychopass = Integer.parseInt(strPsychopass);
 		psychopass += intPsychopass;
