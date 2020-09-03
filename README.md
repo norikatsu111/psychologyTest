@@ -10,14 +10,14 @@ DB H2database<br>
 ## 機能<br>
 
 
-    /**
-    * HTTPリクエスト内の各情報を処理、ユーザーBeanを生成し格納する
-    * @param request HTTPのリクエスト
-	  * @param psychopass サイコパス
-	  * @param comment プロフィールコメント
-	  * @param img プロフィール画像
-    * @return ユーザーBean
-    */
+	/**
+	* HTTPリクエスト内の各情報を処理、ユーザーBeanを生成し格納する
+	* @param request HTTPのリクエスト
+	* @param psychopass サイコパス
+	* @param comment プロフィールコメント
+	* @param img プロフィール画像
+	* @return ユーザーBean
+	*/
 	public UserBean createUserBeanFromRequest(HttpServletRequest request,LoginBean loginUser) {
 		LogUtil.println(this.getClass().getSimpleName() + "#createUserBeanFromRequest");
 
