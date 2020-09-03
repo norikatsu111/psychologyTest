@@ -65,7 +65,7 @@ DB H2database<br>
 			    case "st":
 			      stCount++;
 			      break;
-			    }
+			}
 		}
 
 		//降順でソート
