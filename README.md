@@ -9,7 +9,7 @@ DB H2database<br>
 
 ## 機能<br>
 
-
+### フォームから取得した情報を処理、ユーザーBeanを生成し格納する<br>
 	/**
 	* HTTPリクエスト内の各情報を処理、ユーザーBeanを生成し格納する
 	* @param request HTTPのリクエスト
@@ -121,11 +121,9 @@ DB H2database<br>
 				strPsychopass = "30";
 			}else {
 				strPsychopass = "0";
-		}
-
-		int intPsychopass = Integer.parseInt(strPsychopass);
-		psychopass += intPsychopass;
-
+			}
+			int intPsychopass = Integer.parseInt(strPsychopass);
+			psychopass += intPsychopass;
 		}
 
 		System.out.println("UserLogic　:　点数 :"+ psychopass);
@@ -143,5 +141,5 @@ DB H2database<br>
 		return userEdit;
 	 }
 
-###
-###
+###　<br>
+###　<br>
