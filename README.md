@@ -133,7 +133,7 @@ DB H2database<br>
 
 		UserBean userEdit = (UserBean)request.getSession().getAttribute("userEdit");
 		if (userEdit == null) {
-		userEdit = new UserBean();
+			userEdit = new UserBean();
 
 		}
 		userEdit.setUserName(loginUser.getLogin());
