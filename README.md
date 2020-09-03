@@ -3,9 +3,9 @@
 心理テスト　SQL DAO サーブレット　jspの復習
 
 ## 環境<br>
-#「eclipse」javaEE
-サーバー　 Apache Tomcat v8.0
-DB H2database
+#「eclipse」javaEE<br>
+サーバー　 Apache Tomcat v8.0<br>
+DB H2database<br>
 
 ## 機能<br>
 
