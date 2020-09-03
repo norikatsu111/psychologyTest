@@ -136,8 +136,6 @@ DB H2database
 		userEdit = new UserBean();
 
 		}
-		
-
 		userEdit.setUserName(loginUser.getLogin());
 		userEdit.setComment(comment);
 		userEdit.setImg(img);
